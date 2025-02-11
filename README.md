@@ -28,7 +28,7 @@ ImageURL is a method used in Power BI to display images dynamically from an exte
 
 ### 🔢 **Steps Followed**
 
-- **Step 1**: 📖 Collected character data and images. **[Dataset Link Here]**
+- **Step 1**: 📖 Collected character data and images. **[Dataset Link Here](https://github.com/Sudharsan-T/StreetFighter_PowerBI/blob/main/Street%20Fightercharacters_stats.xlsx)**
 - **Step 2**: 🌄 Designed the dataset with attributes such as name, height, weight, likes, dislikes, and bio.
 - **Step 3**: 🖼️ Stored **image URLs** for seamless integration into Power BI.
 - **Step 4**: 🛠️ Used **SVGs and HTML content** for enhanced interactivity.
