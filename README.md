@@ -37,7 +37,7 @@ ImageURL is a method used in Power BI to display images dynamically from an exte
 - **Step 7**: 🧪 Created **DAX measures** to manage filtering logic and interactivity.
 - **Step 8**: 💎 Styled the dashboard with a **Street Fighter-inspired theme**.
 - **Step 9**: 🎨 Implemented **conditional formatting** for visual appeal.
-- **Step 10**: 📰 Published the report to **Power BI Service**. **[Project File Link Here]**
+- **Step 10**: 📰 Published the report to **Power BI Service**. **[Project File Link Here](https://github.com/Sudharsan-T/StreetFighter_PowerBI/blob/main/StreetFighter_BI.pbix)**
 
 # 🎥 **Snapshot of the Dashboard (Power BI Service)**
 
