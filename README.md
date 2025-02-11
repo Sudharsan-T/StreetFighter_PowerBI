@@ -47,9 +47,72 @@ ImageURL is a method used in Power BI to display images dynamically from an exte
 
 ### 💡 **DAX Measures Used**
 
-#### 👨‍💻 **Character Count**
+#### 👨‍💻 **SVG Character**
 ```DAX
-Total Characters = COUNT(CharacterData[CharacterName])
+SVG Character =
+
+// SUBSTITUTE(SUBSTITUTE(SELECTEDVALUE(characters[SVG_name]), "<path", "<path fill=\"#FFFFFF\"") , "viewBox=\"0 0 348.73 160.1\"", "height=\"150px\" viewBox=\"0 0 600 160.1\"")
+VAR _Start = 
+"<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+<meta charset=\"UTF-8\">
+<title>SVG Display</title>
+<style>
+  svg {
+    /* Your SVG styling goes here */
+  }
+  path {
+    fill: #FFFFFF; /* Ensure all paths are white */
+  }
+</style>
+</head>
+<body>
+<div id=\"htmlContent\">
+  <div class=\"htmlViewerEntry\">
+    <div>"
+VAR _End =     "    </div>
+  </div>
+</div>
+</body>
+</html>"
+RETURN
+
+_start &  SELECTEDVALUE(SVG[SVG_code]) & _End
+```
+
+#### 🎨 **SVG Name**
+```DAX
+SVGName =
+
+// SUBSTITUTE(SUBSTITUTE(SELECTEDVALUE(characters[SVG_name]), "<path", "<path fill=\"#FFFFFF\"") , "viewBox=\"0 0 348.73 160.1\"", "height=\"150px\" viewBox=\"0 0 600 160.1\"")
+VAR _Start = 
+"<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+<meta charset=\"UTF-8\">
+<title>SVG Display</title>
+<style>
+  svg {
+    /* Your SVG styling goes here */
+  }
+  path {
+    fill: #FFFFFF; /* Ensure all paths are white */
+  }
+</style>
+</head>
+<body>
+<div id=\"htmlContent\">
+  <div class=\"htmlViewerEntry\">
+    <div>"
+VAR _End =     "    </div>
+  </div>
+</div>
+</body>
+</html>"
+RETURN
+
+_start &  SUBSTITUTE(SELECTEDVALUE(characters[SVG_name]),  "viewBox=\"0 0 348.73 160.1\"", "height=\"150px\" viewBox=\"0 0 600 160.1\"") & _End
 ```
 
 #### 🔄 **Filter Selection Based on User Input**
@@ -78,4 +141,3 @@ This Power BI project showcases how **advanced visuals and interactivity** can b
 ## 👤 **Published by**: Sudharsan T
 
 ## 📅 **Date**: 11-02-2025
-
