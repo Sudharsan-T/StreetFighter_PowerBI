@@ -1,6 +1,6 @@
 # 🎮 **Street Fighter Character Selection Dashboard** 🎮
 
-### 🔗 **Dashboard Link**: [Insert Link Here]
+### 🔗 **Dashboard Link**: [Click Here](https://app.powerbi.com/view?r=eyJrIjoiMGExZjRhODItYTRjMy00YTc5LWEzOGMtN2FjMWFhMjczZTU2IiwidCI6IjFjNmQwOGQ3LTA2NGMtNDdiNC1hODgwLWRlYmZhNjk4YWVlOCJ9)
 
 ### 🔍 **Dashboard Overview**
 This Power BI project is a **dynamic and interactive character selection dashboard** inspired by Street Fighter. The dashboard utilizes **SVG, HTML content, and image URLs** to display character details and allow users to explore various fighters visually.
