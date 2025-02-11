@@ -41,7 +41,7 @@ ImageURL is a method used in Power BI to display images dynamically from an exte
 
 # 🎥 **Snapshot of the Dashboard (Power BI Service)**
 
-![Image](https://github.com/user-attachments/assets/sample-image.png)
+![Image](https://github.com/user-attachments/assets/516e6b25-e5a4-4775-8079-f1b26c737f5e)
 
 # 🎨 **Technical Implementation**
 
